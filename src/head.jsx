@@ -161,6 +161,18 @@ function FullHead() {
           <a className={classes.a2} href="#"><Typography className={classes.typo} variant="body1">Video</Typography></a>
         </Paper>
       </Grid>
+    {/* Project #4 */}
+      <Grid item xs={12} sm={12} md={6}>
+        <Paper className={classes.projectPaper} elevation={3}>
+          <Typography variant='h6' className={classes.typo}>Portfolio</Typography>
+          <Typography variant='subtitle1' className={classes.typo} color="textSecondary">
+            The portfolio you're seeing rn, made with react and material-ui.
+          </Typography>
+          <div className={classes.a3}><Typography className={classes.typo} variant="body1">[JavaScript]</Typography></div>
+          <a className={classes.a2} href="https://github.com/0xCN/portfolio"><Typography className={classes.typo} variant="body1">Code</Typography></a>
+          <a className={classes.a2} href="https://0xcn.github.io/portfolio"><Typography className={classes.typo} variant="body1">Demo</Typography></a>
+        </Paper>
+      </Grid>
     </Grid>
     </div>
     <hr/>

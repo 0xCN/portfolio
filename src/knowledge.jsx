@@ -157,8 +157,23 @@ export default function Knowledge() {
       await getData('', data, 1);
       setDone(true);
     }
-    efFunc();
+    const temp_data = localStorage.getItem("data");
+    const temp_text_data = localStorage.getItem("text_data"); 
+    if (temp_data && temp_text_data) {
+      data = JSON.parse(temp_data);
+      text_data = JSON.parse(temp_text_data);
+      setDone(true);
+    }
+    else {
+      efFunc();
+    }
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem("data", JSON.stringify(data));
+    localStorage.setItem("text_data", JSON.stringify(text_data));
+
+  })
 
   const requestOptions = {
         method: 'GET',

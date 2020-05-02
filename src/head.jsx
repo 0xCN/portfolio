@@ -37,9 +37,6 @@ const useStyles = makeStyles({
   htb: {
     width: '210px',
     borderRadius: '4px',
-    '&:hover': {
-      cursor: 'pointer',
-    }
   },
   octocat: {
     height: '65px'
@@ -116,11 +113,11 @@ function FullHead() {
         <img className={classes.htb} src={htb} alt="Hack The Box"></img>
         <img className={classes.octocat} src={octocat} alt="GitHub"></img>
       </div>
-      <div className={classes.a}><Typography className={classes.Link} variant="body1">0xnoodles@gmail.com</Typography></div>
-      <a className={classes.a} href="https://github.com/0xCN"><Typography className={classes.Link} variant="body1">GitHub</Typography></a>
-      <a className={classes.a} href="https://www.hackthebox.eu/profile/58178"><Typography className={classes.Link} variant="body1">HackTheBox</Typography></a>
-      <a className={classes.a} href="https://twitter.com/0xcn1"><Typography className={classes.Link} variant="body1">Twitter</Typography></a>
-      <a className={classes.a} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><Typography className={classes.Link} variant="body1">click-me</Typography></a>
+      <a className={classes.a} href="mailto:0xnoodles@gmail.com"><Typography className={classes.Link} variant="body1">0xnoodles@gmail.com</Typography></a>
+      <a className={classes.a} href="https://github.com/0xCN" target="_blank"><Typography className={classes.Link} variant="body1">GitHub</Typography></a>
+      <a className={classes.a} href="https://www.hackthebox.eu/profile/58178" target="_blank"><Typography className={classes.Link} variant="body1">HackTheBox</Typography></a>
+      <a className={classes.a} href="https://twitter.com/0xcn1" target="_blank"><Typography className={classes.Link} variant="body1">Twitter</Typography></a>
+      <a className={classes.a} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><Typography className={classes.Link} variant="body1">click-me</Typography></a>
     </div>
     {/* Projects block */}
     <div className={classes.projectRoot}>
@@ -130,10 +127,10 @@ function FullHead() {
         <Paper className={classes.projectPaper} elevation={3}>
           <Typography variant='h6' className={classes.typo}>Kawaii-Vault</Typography>
           <Typography variant='subtitle1' className={classes.typo} color="textSecondary">
-            GitHub gist based cli password manager with a custom vim like text-editor.
+            GitHub gist based cli password manager with a custom vim like text-editor, Uses GitHub Rest.
           </Typography>
           <div className={classes.a3}><Typography className={classes.typo} variant="body1">[Rust]</Typography></div>
-          <a className={classes.a2} href="https://github.com/0xCN/kawaii-vault"><Typography className={classes.typo} variant="body1">Code</Typography></a>
+          <a className={classes.a2} href="https://github.com/0xCN/kawaii-vault" target="_blank"><Typography className={classes.typo} variant="body1">Code</Typography></a>
           <a className={classes.a2} href="#"><Typography className={classes.typo} variant="body1">Video</Typography></a>
         </Paper>
       </Grid>
@@ -145,8 +142,8 @@ function FullHead() {
             Website with a Rest API to get information on IP addresses, and an anime girl to read you it.
           </Typography>
           <div className={classes.a3}><Typography className={classes.typo} variant="body1">[Python-Flask]</Typography></div>
-          <a className={classes.a2} href="https://github.com/luxunator/weebmyip"><Typography className={classes.typo} variant="body1">Code</Typography></a>
-          <a className={classes.a2} href="https://weebmyip.pythonanywhere.com/"><Typography className={classes.typo} variant="body1">Demo</Typography></a>
+          <a className={classes.a2} href="https://github.com/luxunator/weebmyip" target="_blank"><Typography className={classes.typo} variant="body1">Code</Typography></a>
+          <a className={classes.a2} href="https://weebmyip.pythonanywhere.com/" target="_blank"><Typography className={classes.typo} variant="body1">Demo</Typography></a>
         </Paper>
       </Grid>
     {/* Project #3 */}
@@ -154,11 +151,11 @@ function FullHead() {
         <Paper className={classes.projectPaper} elevation={3}>
           <Typography variant='h6' className={classes.typo}>PasteJS</Typography>
           <Typography variant='subtitle1' className={classes.typo} color="textSecondary">
-            Simple Chrome Extension to Prevent PasteJacking.
+            Simple chrome extension to prevent PasteJacking.
           </Typography>
           <div className={classes.a3}><Typography className={classes.typo} variant="body1">[JavaScript]</Typography></div>
-          <a className={classes.a2} href="https://github.com/0xCN/PasteJS"><Typography className={classes.typo} variant="body1">Code</Typography></a>
-          <a className={classes.a2} href="#"><Typography className={classes.typo} variant="body1">Video</Typography></a>
+          <a className={classes.a2} href="https://github.com/0xCN/PasteJS" target="_blank"><Typography className={classes.typo} variant="body1">Code</Typography></a>
+          <a className={classes.a2} href="#"  target="_blank"><Typography className={classes.typo} variant="body1">Video</Typography></a>
         </Paper>
       </Grid>
     {/* Project #4 */}
@@ -166,11 +163,11 @@ function FullHead() {
         <Paper className={classes.projectPaper} elevation={3}>
           <Typography variant='h6' className={classes.typo}>Portfolio</Typography>
           <Typography variant='subtitle1' className={classes.typo} color="textSecondary">
-            The portfolio you're seeing rn, made with react and material-ui.
+            The portfolio you're seeing right now, uses material-ui.
           </Typography>
-          <div className={classes.a3}><Typography className={classes.typo} variant="body1">[JavaScript]</Typography></div>
-          <a className={classes.a2} href="https://github.com/0xCN/portfolio"><Typography className={classes.typo} variant="body1">Code</Typography></a>
-          <a className={classes.a2} href="https://0xcn.github.io/portfolio"><Typography className={classes.typo} variant="body1">Demo</Typography></a>
+          <div className={classes.a3}><Typography className={classes.typo} variant="body1">[JS-React]</Typography></div>
+          <a className={classes.a2} href="https://github.com/0xCN/portfolio" target="_blank"><Typography className={classes.typo} variant="body1">Code</Typography></a>
+          <a className={classes.a2} href="#"><Typography className={classes.typo} variant="body1">Demo</Typography></a>
         </Paper>
       </Grid>
     </Grid>

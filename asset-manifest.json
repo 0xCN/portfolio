@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1ae81a16.chunk.css",
-    "main.js": "/portfolio/static/js/main.3c2b4f80.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3c2b4f80.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
-    "static/js/2.d1d64ed0.chunk.js": "/portfolio/static/js/2.d1d64ed0.chunk.js",
-    "static/js/2.d1d64ed0.chunk.js.map": "/portfolio/static/js/2.d1d64ed0.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.68bab393e544b1c3c5c2adb71ad7b688.js": "/portfolio/precache-manifest.68bab393e544b1c3c5c2adb71ad7b688.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1ae81a16.chunk.css.map": "/portfolio/static/css/main.1ae81a16.chunk.css.map",
-    "static/js/2.d1d64ed0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d1d64ed0.chunk.js.LICENSE.txt",
-    "static/media/htb.png": "/portfolio/static/media/htb.6f1eb353.png",
-    "static/media/octocat.png": "/portfolio/static/media/octocat.0ba2aa20.png",
-    "static/media/pfp.jpg": "/portfolio/static/media/pfp.ed5f8c9d.jpg"
+    "main.css": "/static/css/main.1ae81a16.chunk.css",
+    "main.js": "/static/js/main.f553663e.chunk.js",
+    "main.js.map": "/static/js/main.f553663e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17a0efde.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17a0efde.js.map",
+    "static/js/2.d1d64ed0.chunk.js": "/static/js/2.d1d64ed0.chunk.js",
+    "static/js/2.d1d64ed0.chunk.js.map": "/static/js/2.d1d64ed0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.653546a8948256dc03db38ef55259d9c.js": "/precache-manifest.653546a8948256dc03db38ef55259d9c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1ae81a16.chunk.css.map": "/static/css/main.1ae81a16.chunk.css.map",
+    "static/js/2.d1d64ed0.chunk.js.LICENSE.txt": "/static/js/2.d1d64ed0.chunk.js.LICENSE.txt",
+    "static/media/htb.png": "/static/media/htb.6f1eb353.png",
+    "static/media/octocat.png": "/static/media/octocat.0ba2aa20.png",
+    "static/media/pfp.jpg": "/static/media/pfp.ed5f8c9d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f18b6ef5.js",
+    "static/js/runtime-main.17a0efde.js",
     "static/js/2.d1d64ed0.chunk.js",
     "static/css/main.1ae81a16.chunk.css",
-    "static/js/main.3c2b4f80.chunk.js"
+    "static/js/main.f553663e.chunk.js"
   ]
 }

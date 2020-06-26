@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://0xcn.github.io/portfolio/",
+  "homepage": "https://0xcn.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
